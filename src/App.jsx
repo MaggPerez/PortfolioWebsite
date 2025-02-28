@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import Home from './pages/Home'
+import './App.css'
 
 
 function App() {
@@ -6,9 +8,7 @@ function App() {
 
   return (
     <>
-      <div className='bg-violet-500'>
-        hello world
-      </div>
+      <Home />
     </>
   )
 }
