@@ -3,7 +3,7 @@
 
 export default function Gallery() {
     return (
-        <section class="text-gray-600 dark:text-white body-font dark:bg-black">
+        <section id="MyProjects" class="text-gray-600 dark:text-white body-font dark:bg-black">
             <div class="container px-5 py-24 mx-auto">
                 <div class="flex flex-wrap w-full mb-20">
                     <div class="lg:w-1/2 w-full mb-6 lg:mb-0">

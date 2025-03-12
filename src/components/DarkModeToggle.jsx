@@ -21,7 +21,7 @@ const DarkModeToggle = () => {
 
     return(
         <button 
-            className="p-2 bg-gray-200 dark:bg-gray-800 text-black dark:text-white rounded-md flex items-center gap-2"
+            className="p-2 bg-gray-200 dark:bg-gray-800 text-black dark:text-white rounded-md flex items-center"
             onClick={() => setDarkMode(!darkMode)}
         >
             <img 
@@ -29,7 +29,7 @@ const DarkModeToggle = () => {
                 alt={darkMode ? "Moon Icon" : "Sun Icon"} 
                 className="w-6 h-6"
             />
-            <span>{darkMode ? "Dark Mode" : "Light Mode"}</span>
+            <span>{darkMode ? "" : ""}</span>
         </button>
     );
 
