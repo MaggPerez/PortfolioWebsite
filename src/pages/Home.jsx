@@ -1,12 +1,15 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import Gallery from "../components/Gallery";
 
 function Home(){
     return(
-        <div className="h-screen dark:bg-black">
+        <div className="dark:bg-black">
             <Navbar />
             
             <Hero />
+            <Gallery />
+
         </div>
     );
 }
