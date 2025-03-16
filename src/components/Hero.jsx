@@ -3,7 +3,7 @@
 
 function Hero() {
     return (
-        <section className="text-gray-600 body-font h-screen lg:flex lg:justify-center lg:items-center">
+        <section className="text-gray-600 body-font h-screen lg:pt-32">
             <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
                     <img className="object-cover object-center rounded" alt="hero" src="/images/ProfilePic.webp" />
@@ -17,7 +17,8 @@ function Hero() {
                     <p className="mb-8 leading-relaxed dark:text-white">I am passionate in building websites.</p>
                     <div className="flex justify-center">
                         <a href="#MyProjects"><button className="cursor-pointer inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">My Projects</button></a>
-                        <button className="cursor-pointer ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">About me</button>
+                        <a href="https://github.com/MaggPerez" target="_blank"><button className="cursor-pointer ml-4 inline-flex text-gray-700 
+                        bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">GitHub</button></a>
                     </div>
                 </div>
             </div>

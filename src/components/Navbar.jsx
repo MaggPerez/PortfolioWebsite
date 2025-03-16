@@ -13,7 +13,7 @@ function Navbar() {
                 <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center">
                     <a href="#MyProjects" className="mr-5 hover:text-violet-600 scroll-smooth">Projects</a>
                     <a href="#about" className="mr-5 hover:text-violet-600">About Me</a>
-                    <a href="#third" className="mr-5 hover:text-violet-600">Third Link</a>
+                    <a href="https://github.com/MaggPerez" className="mr-5 hover:text-violet-600">GitHub</a>
                     <a href="#fourth" className="mr-5 hover:text-violet-600">Fourth Link</a>
                 </nav>
                 <DarkModeToggle />
