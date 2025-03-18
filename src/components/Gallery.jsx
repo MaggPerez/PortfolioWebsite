@@ -18,8 +18,8 @@ export default function Gallery() {
                     <div class="xl:w-1/4 md:w-1/2 p-4">
                         <div class="bg-gray-100 dark:bg-zinc-900 p-6 rounded-lg">
                             <a href="https://github.com/MaggPerez/PiggyUnited-REACT" target="_blank">
-                            <img class="h-40 rounded w-full object-cover object-center mb-6 " src="https://dummyimage.com/720x400" alt="content"/>
-                            <p className="text-center">View project</p>
+                            <img class="h-40 rounded w-full object-cover object-center mb-6 " src="/images/piggyunited.jpeg" alt="content"/>
+                            {/* <p className="text-center">View project</p> */}
                             </a>
                                 <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">PROJECT</h3>
                                 <h2 class="text-lg text-gray-900 dark:text-indigo-300 font-medium title-font mb-4">Piggy United</h2>
@@ -30,7 +30,7 @@ export default function Gallery() {
                     {/* Second box */}
                     <div class="xl:w-1/4 md:w-1/2 p-4">
                         <div class="bg-gray-100 dark:bg-zinc-900 p-6 rounded-lg">
-                            <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="content" />
+                            <img class="h-40 rounded w-full object-cover object-center mb-6" src="/images/StockSynergy.jpeg" alt="content" />
                                 <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">PROJECT</h3>
                                 <h2 class="text-lg text-gray-900 dark:text-indigo-300 font-medium title-font mb-4">Stock Synergy</h2>
                                 <p class="leading-relaxed text-base">Inventory management system for retail stores to help track analytics, inventory levels, and sales floor data.</p>
