@@ -14,7 +14,7 @@ function Navbar() {
                     <a href="#MyProjects" className="mr-5 hover:text-violet-600 scroll-smooth">Projects</a>
                     <a href="#about" className="mr-5 hover:text-violet-600">About Me</a>
                     <a href="https://github.com/MaggPerez" className="mr-5 hover:text-violet-600">GitHub</a>
-                    <a href="#fourth" className="mr-5 hover:text-violet-600">Fourth Link</a>
+                    <a href="#latest-project" className="mr-5 hover:text-violet-600">Latest Project</a>
                 </nav>
                 <DarkModeToggle />
             </div>
